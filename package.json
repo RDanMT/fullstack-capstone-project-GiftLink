@@ -1,0 +1,32 @@
+{
+  "name": "grihf-frontend_capstone_starter_code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibm-developer-skills-network/grihf-frontend_capstone_starter_code.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ibm-developer-skills-network/grihf-frontend_capstone_starter_code/issues"
+  },
+  "homepage": "https://github.com/ibm-developer-skills-network/grihf-frontend_capstone_starter_code#readme",
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.1.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "puppeteer": "^24.3.0",
+    "vite": "^6.0.0"
+  }
+}

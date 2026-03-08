@@ -1,0 +1,50 @@
+.reviews-container {
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.reviews-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.reviews-table th,
+.reviews-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.reviews-table th {
+    background-color: #f8f9fa;
+}
+
+.review-btn {
+    width: 150px;
+}
+
+.review-form-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.review-form-container {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    width: 400px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.review-form-container h3 {
+    margin-bottom: 20px;
+}

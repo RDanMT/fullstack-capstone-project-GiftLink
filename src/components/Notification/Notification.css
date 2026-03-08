@@ -1,0 +1,20 @@
+.appointment-card {
+    background-color: #f1f8ff;
+    border: 1px solid #2190FF;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 20px auto;
+    width: 60%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.appointment-card__title {
+    color: #2190FF;
+    margin-bottom: 10px;
+}
+
+.appointment-card__message {
+    color: #333;
+    font-size: 16px;
+}

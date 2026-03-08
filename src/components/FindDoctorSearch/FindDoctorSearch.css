@@ -1,0 +1,57 @@
+.finddoctor {
+    margin-top: 100px;
+}
+
+.home-search-container {
+    margin-top: 20px;
+    position: relative;
+    width: 60%;
+}
+
+.search-local {
+    position: relative;
+    width: 100%;
+}
+
+.search-local input {
+    width: 100%;
+    padding: 10px 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.search-local i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #888;
+}
+
+.search-dropdown-specialities {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+}
+
+.search-item {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.search-item:hover {
+    background: #f0f0f0;
+}
+
+.search-item span {
+    margin-left: 10px;
+}

@@ -1,0 +1,15 @@
+.instant-consultation {
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.consultation-card {
+    border: 1px solid #ccc;
+    padding: 40px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    margin-top: 20px;
+    text-align: center;
+}

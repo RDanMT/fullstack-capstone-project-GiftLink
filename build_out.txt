@@ -1,0 +1,15 @@
+
+> grihf-frontend_capstone_starter_code@1.0.0 build
+> vite build
+
+[36mvite v6.4.1 [32mbuilding for production...[36m[39m
+transforming...
+[32m✓[39m 30 modules transformed.
+[31m✗[39m Build failed in 162ms
+[31merror during build:
+[31mCould not resolve "./LandingPage.css" from "src/components/LandingPage/LandingPage.jsx"[31m
+file: [36mC:/Users/rdani/source/repos/IBM/grihf-frontend_capstone_starter_code/src/components/LandingPage/LandingPage.jsx[31m
+    at getRollupError (file:///C:/Users/rdani/source/repos/IBM/grihf-frontend_capstone_starter_code/node_modules/rollup/dist/es/shared/parseAst.js:402:41)
+    at error (file:///C:/Users/rdani/source/repos/IBM/grihf-frontend_capstone_starter_code/node_modules/rollup/dist/es/shared/parseAst.js:398:42)
+    at ModuleLoader.handleInvalidResolvedId (file:///C:/Users/rdani/source/repos/IBM/grihf-frontend_capstone_starter_code/node_modules/rollup/dist/es/shared/node-entry.js:21710:24)
+    at file:///C:/Users/rdani/source/repos/IBM/grihf-frontend_capstone_starter_code/node_modules/rollup/dist/es/shared/node-entry.js:21670:26[39m
